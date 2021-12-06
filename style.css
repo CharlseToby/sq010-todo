@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .7rem;
+    justify-content: center;
+}
+
+main > div > img {
+    width: 420px;
+    height: 400px;
+
+}
+
+h1 {
+    align-self: center;
+}
+
+/* main>div {
+    max-width: 33%;
+    overflow: hidden;
+} 
+
+ */
